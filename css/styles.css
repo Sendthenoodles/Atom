@@ -1,54 +1,131 @@
 
-html,
-body{
+*{
   height: 100%
   padding: 0px;
   margin: 0px;
-
-}
-
-.container{
-  height: 100vh;
-  width: 100%
-  background-image: url(../images/bike.jpg);
-  background-position: center;
-  background-size: cover;
-  padding-left: 5%;
-  padding-right: 5%;
   box-sizing: border-box;
-  position: relative;
 }
 
-.footer{
-  background-color: BLACK;
-  color: WHITE;
-  height: 15em;
-  position: relative;
+h1,
+h2 {
+ font-family: serif, "Garamond";
+}
+p{
+font-family: serif, "TimesNewRoman";
+}
+.navbar-brand{
+  font-family: serif, "Garamond";
+}
+.page{
+  display:flex;
+  padding-top: 5%;
+}
+.content {
+  margin-right: 15%;
+  margin-top: 7.5%;
+  margin-left: 10%;
+
+
+}
+.content h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+.content p{
+    font-size: 20px;
+    color:
+}
+.extra{
+  display: inline-block;
+  background: linear-gradient(45deg, #573609, #7DB3AA);
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  color:#fff;
+  box-shadow: 5px 10px 25px rgba(167, 179, 161, 70);
+  font-family: serif, "TimesNewRoman";
 }
 
-.footer,
-.footer-content{
-  border: 1px solid BLACK;
+.icons{
+  margin-top: 20px;
   display: flex;
 }
+.icons img{
+  margin-right: 10px;
+}
+.images{
+  display: flex;
+  justify-content: center;
 
-.footer,
-.footer-content
-.footer-section{
-  flex: 1;
-  padding: 25px;
-  border: 3px solid RED;
+}
+.feature{
+  display: flex;
+  flex-grow: 1;
+  max-width: 40%;
+  min-width: 25%;
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+  margin-left: 10px;
+  border-right: 10px solid black;
+
 }
 
-.footer,
-.footer-bottom{
-  background: GREY;
-  color: WHITE;
-  text-align: center;
-  height: 10em;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding-top: 20px;
-  width: 100%
+
+height: 80%;
+position: absolute;
+right: 0px;
+bottom: 60px;
+width: 50%;
+
+
+.footer-container{
+  padding-bottom:0;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 50%;
+
 }
+.footer{
+  background-color: #570200;
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap:wrap;
+  height: 10rem;
+  position: relative;
+  color: white;
+  padding-top: 0;
+  margin-top: 10%;
+
+}
+
+.footer-heading{
+  display:flex;
+  color: #fff;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+.footer-heading h2{
+  margin-bottom: 2rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+.footer-heading a{
+  font-size: 1.5rem;
+  color: #0A0601;
+}
+
+
+
+background-image:url(../images/bike.jpg);
+background-position: center;
+background-size: auto;
+margin-top: 50px;
+background-repeat: no-repeat;
+width: 100%;
+height: auto;
