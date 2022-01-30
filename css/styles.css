@@ -7,7 +7,7 @@
 }
 
 h1,
-h2 {
+h2, {
  font-family: serif, "Garamond";
 }
 p{
@@ -46,7 +46,7 @@ font-family: serif, "TimesNewRoman";
   box-sizing: border-box;
   color:#fff;
   box-shadow: 5px 10px 25px rgba(167, 179, 161, 70);
-  font-family: serif, "TimesNewRoman";
+font-family: serif, "TimesNewRoman";
 }
 
 .icons{
@@ -71,23 +71,38 @@ font-family: serif, "TimesNewRoman";
   margin-left: 10px;
   margin-left: 10px;
   border-right: 10px solid black;
+  border-left: 10px solid black;
 
 }
 
+.info{
+  margin-left: 10%;
+  margin-right: 90%
+  border: 5px solid red;
+}
 
-height: 80%;
-position: absolute;
-right: 0px;
-bottom: 60px;
-width: 50%;
+.pics{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 
+}
+.class{
+  padding: 10px 20px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* Footer */
 
 .footer-container{
   padding-bottom:0;
   position: relative;
-  min-height: 100vh;
-  padding-top: 50%;
-
+  padding-top: 0%;
+  bottom: 0;
+  width: 100%;
 }
 .footer{
   background-color: #570200;
@@ -96,12 +111,11 @@ width: 50%;
   margin: 0 auto;
   justify-content: center;
   flex-wrap:wrap;
-  height: 10rem;
+  height: 15rem;
   position: relative;
   color: white;
-  padding-top: 0;
-  margin-top: 10%;
-
+  margin-top: 5%;
+  width: 100%;
 }
 
 .footer-heading{
@@ -109,6 +123,7 @@ width: 50%;
   color: #fff;
   flex-direction: column;
   margin-right: 4rem;
+  align-items: center;
 }
 .footer-heading h2{
   margin-bottom: 2rem;
