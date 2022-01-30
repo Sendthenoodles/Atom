@@ -1,0 +1,34 @@
+
+html,
+body{
+  height: 100%
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.footer{
+  background-color: BLACK;
+  color: WHITE;
+  height: 15em;
+  position: relative;
+}
+
+.footer,
+.footer-content{
+  border: 1px solid BLACK;
+}
+
+
+.footer,
+.footer-bottom{
+  background: GREY;
+  color: WHITE;
+  text-align: center;
+  height: 5em;
+  position: absolute;
+  bottom: 0em;
+  left: 0em;
+  padding-top: 20px;
+  width: 100%
+}
