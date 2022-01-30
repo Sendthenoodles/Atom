@@ -4,7 +4,13 @@ body{
   height: 100%
   padding: 0px;
   margin: 0px;
-  
+
+}
+
+.container{
+  height: 100vh;
+  width: 100%
+  background-image: url()
 }
 
 .footer{
@@ -17,18 +23,26 @@ body{
 .footer,
 .footer-content{
   border: 1px solid BLACK;
+  display: flex;
 }
 
+.footer,
+.footer-content
+.footer-section{
+  flex: 1;
+  padding: 25px;
+  border: 3px solid RED;
+}
 
 .footer,
 .footer-bottom{
   background: GREY;
   color: WHITE;
   text-align: center;
-  height: 5em;
+  height: 10em;
   position: absolute;
-  bottom: 0em;
-  left: 0em;
+  bottom: 0px;
+  left: 0px;
   padding-top: 20px;
   width: 100%
 }
