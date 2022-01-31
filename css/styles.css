@@ -92,6 +92,7 @@ font-family: serif, "TimesNewRoman";
   display: flex;
   justify-content: space-around;
 }
+
 .text{
   display: flex;
   flex-direction: column;
